@@ -5,11 +5,8 @@
     flex-direction: column;
     align-items: center;
     padding-top: 28px;
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Inter', 'Arial', sans-serif;
     -webkit-font-smoothing: antialiased;
-    overflow: hidden;
 }
 
 @media screen and (max-device-width: 320px) {

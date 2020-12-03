@@ -1,7 +1,6 @@
 .header__lang-panel {
     padding-top: 15px;
     max-width: 78px;
-    max-height: 28px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
