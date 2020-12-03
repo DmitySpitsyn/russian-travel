@@ -1,0 +1,13 @@
+.places {
+    width: 100%;
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+@media screen and (max-device-width: 1024px) {
+    .places {
+        max-width: 1024px;
+    }
+}

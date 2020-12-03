@@ -1,0 +1,10 @@
+.footer__navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-device-width: 650px) {
+    .footer__navigation {
+        flex-direction: column;
+    }
+}

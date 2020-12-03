@@ -1,0 +1,11 @@
+.header__logo {
+    max-width: 176px;
+    max-height: 52px;
+    width: 100%;
+    object-fit: cover;
+    transition: opacicty 350ms ease;
+}
+
+.header__logo:hover {
+    opacity: 0.8;
+}

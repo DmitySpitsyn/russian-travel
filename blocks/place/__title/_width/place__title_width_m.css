@@ -1,0 +1,5 @@
+@media screen and (max-device-width: 768px) {
+    .place__title_width_m {
+        max-width: 300px;
+    }
+}

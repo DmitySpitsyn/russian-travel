@@ -1,0 +1,19 @@
+.header {
+    width: calc(100% - 96px);
+    max-width: 1184px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-device-width: 768px) {
+    .header {
+        width: calc(100% - 48px);
+    }
+}
+@media screen and (max-device-width: 320px) {
+    .header {
+        width: calc(100% - 32px);
+    }
+}

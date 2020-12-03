@@ -1,0 +1,17 @@
+.header__lang-panel {
+    padding-top: 15px;
+    max-width: 78px;
+    max-height: 28px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+@media screen and (max-device-width: 320px) {
+    .header__lang-panel {
+        padding-top: 0px;
+        max-width: 64px;
+        max-height: 30px;
+    }
+}
