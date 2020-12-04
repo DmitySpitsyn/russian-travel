@@ -12,16 +12,10 @@
     z-index: 2;
 }
 
-@media screen and (max-device-width: 768px) {
+@media screen and (max-width: 320px) {
     .cover__title {
-        max-width: 530px;
-        font-size: 10vw;
-        line-height: 10vw;
-    }
-}
-
-@media screen and (max-device-width: 320px) {
-    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
         max-width: 245px;
     }
 }

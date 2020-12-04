@@ -3,11 +3,12 @@
     margin: 0;
     font-size: 14px;
     line-height: 16px;
+    font-weight: 400;
     text-align: right;
     color: #FFFFFF;
 }
 
-@media screen and (max-device-width: 320px) {
+@media screen and (max-width: 320px) {
     .footer__copyright {
         padding: 12px 0 0 5px;
         line-height: 14px;

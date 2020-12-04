@@ -10,13 +10,13 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-width:1024px) {
     .lead__title {
         padding: 48px 0 0 0;
     }
 }
 
-@media screen and (max-device-width: 360px) {
+@media screen and (max-width:360px) {
     .lead__title {
         max-width: 288px;
         font-size: 40px;

@@ -6,7 +6,13 @@
     justify-content: flex-start;
 }
 
-@media screen and (max-device-width: 320px) {
+@media screen and (max-width:768px) {
+    .place__website {
+        padding: 0 0 17px 0;
+    }
+}
+
+@media screen and (max-width:320px) {
     .place__website {
         display: none;
     }

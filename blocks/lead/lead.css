@@ -6,8 +6,14 @@
     align-items: flex-start;
 }
 
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .lead {
         max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        padding-top: 10px;
     }
 }

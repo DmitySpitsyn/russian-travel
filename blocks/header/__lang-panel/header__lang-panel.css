@@ -7,10 +7,9 @@
     gap: 18px;
 }
 
-@media screen and (max-device-width: 320px) {
+@media screen and (max-width:320px) {
     .header__lang-panel {
         padding-top: 0px;
         max-width: 64px;
-        max-height: 30px;
     }
 }
