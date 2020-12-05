@@ -10,7 +10,7 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:520px) {
     .cover {
         padding: 64px 0 0 0;
     }

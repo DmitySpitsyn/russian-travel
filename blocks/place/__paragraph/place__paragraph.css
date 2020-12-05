@@ -6,13 +6,13 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 400px) {
     .place__paragraph {
         width: 100%;
         padding: 25px 16px 0 16px;
